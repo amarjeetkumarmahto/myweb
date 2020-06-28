@@ -1,0 +1,133 @@
+.page
+{
+	width: 100%;
+	height: auto;
+	border-style: groove;
+}
+.headpart
+{
+	width: auto;
+	height: 200px;
+	border-style: groove;
+	background-color: rgb(12,100,198);
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.linkspart
+{
+	width: auto;
+	height: 25px;
+    background-color: rgb(12,100,198);
+    border-style:groove;
+    margin-top:5px;
+    text-align: center;
+}
+.linkspart a
+{
+	color: rgb(245,246,251);
+	text-decoration:none;
+	margin: 5px 40px 0 40px;
+}
+.linkspart a:hover
+{
+	background-color: rgb(245,246,251);
+	 
+	color:rgb(12,100,198); 
+}
+.bodypart
+{
+	width:auto;
+	height: 600px;
+	border-style: groove;
+	margin-top: 5px;
+}
+.bodypart .imagepart
+{
+	width: 800px;
+	height: 300px;
+	border-style: groove;
+	/*background-color: red;*/
+	display: inline-block;
+	background-image: url('3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+.bodypart .newspart
+{
+	width: 400px;
+	height: 580px;
+	border-style: groove;
+	float:right;
+}
+.bodypart .newspart h2
+{
+	color: green;
+	margin-left: 10px;
+}
+.bodypart .newspart .news
+{
+	width: 410px;
+	height: 500px;
+	/*border-style: groove;*/
+}
+.bodypart h3
+{
+	text-align: center;
+	color: blue;
+}
+.bodypart p
+{
+	margin:10px;
+}
+ .page .footer
+
+{
+  width: auto;
+height: 200px;
+background-color:blue;
+margin-top: 10px;
+padding: 20px;
+}
+ .page .footer .photo
+
+
+{
+width: auto;
+height: 130px;
+background-color: white;
+border-radius: 10px;
+
+border-style: groove;
+
+
+}
+.page .footer .photo img
+{
+	/*border-radius: 10px 10px 10px 10px;*/
+	float: left;
+     width: 200px;
+     height: 100px;
+     margin-right :100px;
+}
+.page .footer p
+{
+	float:left;
+	margin-right:50px;
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+
+}
+.page .footer img
+{
+	height: 50px;
+	width: 50px;
+	/*border-style: groove;*/
+	margin: 15px 40px 0 0;
+	float:right;
+}
+
+
+
